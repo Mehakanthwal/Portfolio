@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f9;
+        }
+        .screen {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: white;
+            width: 80%;
+            max-width: 400px;
+        }
+        .details-screen {
+            display: none;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="screen about-me-screen">
+        <h1>About Me</h1>
+        <p>This is the about me section.</p>
+        <button id="show-detail-btn">Show Details</button>
+    </div>
+    <div class="screen details-screen">
+        <h1>welcome to my PORFOLIO! </h1>
+        <p> details </p>
+        <h2> my name is mehak </h2>
+        <h3> I'm a developer with the passion for building new things </h3>
+    </div>
+
+    <script>
+        document.getElementById('show-detail-btn').addEventListener('click', () => {
+            document.querySelector('.about-me-screen').style.display = 'none';
+            document.querySelector('.details-screen').style.display = 'block';
+        });
+    </script>
+</body>
+</html>
