@@ -2,14 +2,14 @@
 
 A personal portfolio website created using HTML, CSS, and JavaScript.
 
+have a look to the output 
+http://127.0.0.1:5500/index.html
+
 *Description*
 
 This project showcases my skills and experience in web development through a visually appealing and interactive portfolio website.
 
 *Features*
-
-have a look to the output 
-http://127.0.0.1:5500/index.html
 
 - Responsive design for optimal viewing on various devices
 - Interactive elements using JavaScript
