@@ -8,6 +8,9 @@ This project showcases my skills and experience in web development through a vis
 
 *Features*
 
+have a look to the output 
+http://127.0.0.1:5500/index.html
+
 - Responsive design for optimal viewing on various devices
 - Interactive elements using JavaScript
 - Custom CSS animations and effects
